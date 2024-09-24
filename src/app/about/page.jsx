@@ -1,3 +1,4 @@
+import Hero from '@/components/home/Hero'
 import Footer from '@/components/office/Footer'
 import React from 'react'
 

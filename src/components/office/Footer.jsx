@@ -1,9 +1,12 @@
 import React from 'react'
+import MailJs from '../home/MailJS'
 
 const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
+    return (
+        <div>
+            {/* <MailJs /> */}
+        </div>
+    )
 }
 
 export default Footer

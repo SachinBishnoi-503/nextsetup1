@@ -1,5 +1,6 @@
 "use client"
 import { useState } from 'react';
+import MailJs from './MailJS';
 
 const Hero = () => {
     const [count, setCount] = useState(0);
@@ -18,6 +19,9 @@ const Hero = () => {
                 <button className='p-[15px] w-[150px] mx-[100px] my-[20px] bg-sky-400 border  text-white font-medium text-2xl mr-7' onClick={() => setCount(count * 2)}>multiply</button>
                 <button className='p-[15px] w-[150px] mx-[100px] my-[20px] bg-sky-400 border  text-white font-medium text-2xl mr-7' onClick={() => setCount(count / 2)}>divide</button>
             </div>
+            <div>
+            </div>
+            <div className='min-h-screen'></div>
         </div>
     )
 }
